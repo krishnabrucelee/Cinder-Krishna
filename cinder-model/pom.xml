@@ -18,5 +18,11 @@
 			<artifactId>openstack-client</artifactId>
 			<version>3.2.2-SNAPSHOT</version>
 		</dependency>
+        <dependency>
+            <groupId>com.barchart.wrap</groupId>
+            <artifactId>barchart-wrap-jackson</artifactId>
+            <version>1.8.6-build002-SNAPSHOT</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
 </project>
