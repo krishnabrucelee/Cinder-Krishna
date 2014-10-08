@@ -1,28 +1,11 @@
 package com.woorea.cinder.model;
 
-import java.io.Serializable;
-import java.util.Iterator;
-import java.util.List;
-import org.codehaus.jackson.annotate.JsonProperty;
 
 /**
  *
  * @author developer
  */
-public class QosSpecs implements Iterable<Volume>, Serializable{
-
-     @JsonProperty("QosSpecs")
-	private List<Volume> name;
-
-	
-	public List<Volume> getName() {
-		return name;
-	}
-	
-	@Override
-	public Iterator<Volume> iterator() {
-		return name.iterator();
-	}
+public class QosSpecs {
     
     private String specs;
 
@@ -35,6 +18,12 @@ public class QosSpecs implements Iterable<Volume>, Serializable{
     private String links;
     
     private String id; 
+    
+    private String name;
+    
+    private String delay;
+    
+    private String throughput;
     
     public String getSpecs() {
         return specs;
@@ -84,10 +73,37 @@ public class QosSpecs implements Iterable<Volume>, Serializable{
         this.id = id;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDelay() {
+        return delay;
+    }
+
+    public void setDelay(String delay) {
+        this.delay = delay;
+    }
+
+    public String getThroughput() {
+        return throughput;
+    }
+
+    public void setThroughput(String throughput) {
+        this.throughput = throughput;
+    }
+
     @Override
     public String toString() {
-        return "QosSpecs{" + "name=" + name + ", specs=" + specs + ", availability=" + availability + ", numberOfFailures=" + numberOfFailures + ", consumer=" + consumer + ", links=" + links + ", id=" + id + '}';
+        return "QosSpecs{" + "specs=" + specs + ", availability=" + availability + ", numberOfFailures=" + numberOfFailures + ", consumer=" + consumer + ", links=" + links + ", id=" + id + ", name=" + name + ", delay=" + delay + ", throughput=" + throughput + '}';
     }
+
+    
+    
 
     
     

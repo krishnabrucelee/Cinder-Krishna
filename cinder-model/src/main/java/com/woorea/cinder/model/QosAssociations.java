@@ -10,23 +10,25 @@ import org.codehaus.jackson.annotate.JsonProperty;
  *
  * @author sony
  */
-public class Volumes implements Iterable<Volume>, Serializable{
+public class QosAssociations implements Iterable<QosSpecs>, Serializable{
     
-    @JsonProperty("Volumes")
-	private List<Volume> list;
+    @JsonProperty("QosAssociations")
+	private List<QosSpecs> list;
 
 	
-	public List<Volume> getId() {
+	public List<QosSpecs> getId() {
             return list;
 	}
-        
-	public List<Volume> getName() {
+	
+        public List<QosSpecs> getName() {
             return list;
 	}
         
 	@Override
-	public Iterator<Volume> iterator() {
+	public Iterator<QosSpecs> iterator() {
 		return list.iterator();
 	}
-	
+
+    
+    
 }

@@ -1,11 +1,33 @@
 package com.woorea.cinder.model;
 
+import java.util.Calendar;
+
 /**
  *
- * @author
+ * @author Krishna.
+ * @author Mona.
+ * 
  */
 public class Volume {
-
+    
+    private String id;
+    
+    private String name;
+    
+    private String links;
+    
+    private String status;
+    
+    private String attachments;
+    
+    private boolean  bootable;
+    
+    private Calendar created_at;
+    
+    private String metadata_id;
+    
+    private String description;
+    
     private String availability_zone;
 
     private String source_volid;
@@ -14,7 +36,7 @@ public class Volume {
 
     private String snapshot_id;
 
-    private String size;
+    private Long size;
 
     private String display_name;
 
@@ -23,6 +45,78 @@ public class Volume {
     private String volume_type;
 
     private String metadata;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getLinks() {
+        return links;
+    }
+
+    public void setLinks(String links) {
+        this.links = links;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getAttachments() {
+        return attachments;
+    }
+
+    public void setAttachments(String attachments) {
+        this.attachments = attachments;
+    }
+
+    public boolean getBootable() {
+        return bootable;
+    }
+
+    public void setBootable(boolean bootable) {
+        this.bootable = bootable;
+    }
+
+    public Calendar getCreated_at() {
+        return created_at;
+    }
+
+    public void setCreated_at(Calendar created_at) {
+        this.created_at = created_at;
+    }
+
+    public String getMetadata_id() {
+        return metadata_id;
+    }
+
+    public void setMetadata_id(String metadata_id) {
+        this.metadata_id = metadata_id;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     public String getAvailability_zone() {
         return availability_zone;
@@ -56,11 +150,11 @@ public class Volume {
         this.snapshot_id = snapshot_id;
     }
 
-    public String getSize() {
+    public Long getSize() {
         return size;
     }
 
-    public void setSize(String size) {
+    public void setSize(Long size) {
         this.size = size;
     }
 
@@ -98,7 +192,9 @@ public class Volume {
 
     @Override
     public String toString() {
-        return "Volume{" + "availability_zone=" + availability_zone + ", source_volid=" + source_volid + ", display_description=" + display_description + ", snapshot_id=" + snapshot_id + ", size=" + size + ", display_name=" + display_name + ", imageRef=" + imageRef + ", volume_type=" + volume_type + ", metadata=" + metadata + '}';
+        return "Volume{" + "id=" + id + ", name=" + name + ", links=" + links + ", status=" + status + ", attachments=" + attachments + ", bootable=" + bootable + ", created_at=" + created_at + ", metadata_id=" + metadata_id + ", description=" + description + ", availability_zone=" + availability_zone + ", source_volid=" + source_volid + ", display_description=" + display_description + ", snapshot_id=" + snapshot_id + ", size=" + size + ", display_name=" + display_name + ", imageRef=" + imageRef + ", volume_type=" + volume_type + ", metadata=" + metadata + '}';
     }
+
+    
 
 }

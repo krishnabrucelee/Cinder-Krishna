@@ -7,141 +7,173 @@ package com.woorea.cinder.model;
  */
 public class QuotaSets {
     
-  private String cores;
+  private int cores;
 
-  private String fixed_ips;
+  private int fixed_ips;
   
 
-private String floating_ips;
+private int floating_ips;
 
-private String id;
+private int id;
 
-private String injected_file_content_bytes;
+private int injected_file_content_bytes;
 
-private String  injected_file_path_bytes;
+private int  injected_file_path_bytes;
 
-private String injected_files;
+private int injected_files;
 
-private String instances;
+private int instances;
 
-private String key_pairs;
+private int key_pairs;
 
-private String metadata_items;
+private int metadata_items;
 
-private String ram;
+private int ram;
 
-private String security_group_rules;
+private int security_group_rules;
 
-private String security_groups;
+private int security_groups;
 
-    public String getCores() {
+private int in_use;
+
+private int limit;
+
+private int reserved;
+
+    public int getCores() {
         return cores;
     }
 
-    public void setCores(String cores) {
+    public void setCores(int cores) {
         this.cores = cores;
     }
 
-    public String getFixed_ips() {
+    public int getFixed_ips() {
         return fixed_ips;
     }
 
-    public void setFixed_ips(String fixed_ips) {
+    public void setFixed_ips(int fixed_ips) {
         this.fixed_ips = fixed_ips;
     }
 
-    public String getFloating_ips() {
+    public int getFloating_ips() {
         return floating_ips;
     }
 
-    public void setFloating_ips(String floating_ips) {
+    public void setFloating_ips(int floating_ips) {
         this.floating_ips = floating_ips;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public String getInjected_file_content_bytes() {
+    public int getInjected_file_content_bytes() {
         return injected_file_content_bytes;
     }
 
-    public void setInjected_file_content_bytes(String injected_file_content_bytes) {
+    public void setInjected_file_content_bytes(int injected_file_content_bytes) {
         this.injected_file_content_bytes = injected_file_content_bytes;
     }
 
-    public String getInjected_file_path_bytes() {
+    public int getInjected_file_path_bytes() {
         return injected_file_path_bytes;
     }
 
-    public void setInjected_file_path_bytes(String injected_file_path_bytes) {
+    public void setInjected_file_path_bytes(int injected_file_path_bytes) {
         this.injected_file_path_bytes = injected_file_path_bytes;
     }
 
-    public String getInjected_files() {
+    public int getInjected_files() {
         return injected_files;
     }
 
-    public void setInjected_files(String injected_files) {
+    public void setInjected_files(int injected_files) {
         this.injected_files = injected_files;
     }
 
-    public String getInstances() {
+    public int getInstances() {
         return instances;
     }
 
-    public void setInstances(String instances) {
+    public void setInstances(int instances) {
         this.instances = instances;
     }
 
-    public String getKey_pairs() {
+    public int getKey_pairs() {
         return key_pairs;
     }
 
-    public void setKey_pairs(String key_pairs) {
+    public void setKey_pairs(int key_pairs) {
         this.key_pairs = key_pairs;
     }
 
-    public String getMetadata_items() {
+    public int getMetadata_items() {
         return metadata_items;
     }
 
-    public void setMetadata_items(String metadata_items) {
+    public void setMetadata_items(int metadata_items) {
         this.metadata_items = metadata_items;
     }
 
-    public String getRam() {
+    public int getRam() {
         return ram;
     }
 
-    public void setRam(String ram) {
+    public void setRam(int ram) {
         this.ram = ram;
     }
 
-    public String getSecurity_group_rules() {
+    public int getSecurity_group_rules() {
         return security_group_rules;
     }
 
-    public void setSecurity_group_rules(String security_group_rules) {
+    public void setSecurity_group_rules(int security_group_rules) {
         this.security_group_rules = security_group_rules;
     }
 
-    public String getSecurity_groups() {
+    public int getSecurity_groups() {
         return security_groups;
     }
 
-    public void setSecurity_groups(String security_groups) {
+    public void setSecurity_groups(int security_groups) {
         this.security_groups = security_groups;
+    }
+
+    public int getIn_use() {
+        return in_use;
+    }
+
+    public void setIn_use(int in_use) {
+        this.in_use = in_use;
+    }
+
+    public int getLimit() {
+        return limit;
+    }
+
+    public void setLimit(int limit) {
+        this.limit = limit;
+    }
+
+    public int getReserved() {
+        return reserved;
+    }
+
+    public void setReserved(int reserved) {
+        this.reserved = reserved;
     }
 
     @Override
     public String toString() {
-        return "QuotaSets{" + "cores=" + cores + ", fixed_ips=" + fixed_ips + ", floating_ips=" + floating_ips + ", id=" + id + ", injected_file_content_bytes=" + injected_file_content_bytes + ", injected_file_path_bytes=" + injected_file_path_bytes + ", injected_files=" + injected_files + ", instances=" + instances + ", key_pairs=" + key_pairs + ", metadata_items=" + metadata_items + ", ram=" + ram + ", security_group_rules=" + security_group_rules + ", security_groups=" + security_groups + '}';
+        return "QuotaSets{" + "cores=" + cores + ", fixed_ips=" + fixed_ips + ", floating_ips=" + floating_ips + ", id=" + id + ", injected_file_content_bytes=" + injected_file_content_bytes + ", injected_file_path_bytes=" + injected_file_path_bytes + ", injected_files=" + injected_files + ", instances=" + instances + ", key_pairs=" + key_pairs + ", metadata_items=" + metadata_items + ", ram=" + ram + ", security_group_rules=" + security_group_rules + ", security_groups=" + security_groups + ", in_use=" + in_use + ", limit=" + limit + ", reserved=" + reserved + '}';
     }
-
+    
+    
+    
     
 }
