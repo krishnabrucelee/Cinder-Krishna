@@ -5,7 +5,8 @@ import java.util.Calendar;
 
 /**
  *
- * @author developer
+ * @author Krishna
+ * @author Mona
  */
 public class Snapshot {
 
@@ -134,10 +135,4 @@ public class Snapshot {
         return "Snapshot{" + "id=" + id + ", name=" + name + ", status=" + status + ", description=" + description + ", display_name=" + display_name + ", display_description=" + display_description + ", force=" + force + ", created_at=" + created_at + ", metadata=" + metadata + ", volume=" + volume + ", size=" + size + ", key=" + key + '}';
     }
 
-    
-    
-   
-    
-    
-    
 }

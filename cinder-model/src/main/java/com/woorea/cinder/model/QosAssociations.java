@@ -8,24 +8,25 @@ import org.codehaus.jackson.annotate.JsonProperty;
 
 /**
  *
- * @author sony
+ * @author Krishna
+ * @author Mona
  */
-public class QosAssociations implements Iterable<QosSpecs>, Serializable{
+public class QosAssociations implements Iterable<QosSpec>, Serializable{
     
     @JsonProperty("QosAssociations")
-	private List<QosSpecs> list;
+	private List<QosSpec> list;
 
 	
-	public List<QosSpecs> getId() {
+	public List<QosSpec> getId() {
             return list;
 	}
 	
-        public List<QosSpecs> getName() {
+        public List<QosSpec> getName() {
             return list;
 	}
         
 	@Override
-	public Iterator<QosSpecs> iterator() {
+	public Iterator<QosSpec> iterator() {
 		return list.iterator();
 	}
 

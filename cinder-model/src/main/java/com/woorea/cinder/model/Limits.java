@@ -3,7 +3,8 @@ package com.woorea.cinder.model;
 
 /**
  *
- * @author developer
+ * @author Krishna
+ * @author Mona
  */
 public class Limits {
 
