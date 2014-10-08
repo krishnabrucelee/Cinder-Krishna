@@ -101,5 +101,4 @@ public class QosSpec {
     public String toString() {
         return "QosSpec{" + "specs=" + specs + ", availability=" + availability + ", numberOfFailures=" + numberOfFailures + ", consumer=" + consumer + ", links=" + links + ", id=" + id + ", name=" + name + ", delay=" + delay + ", throughput=" + throughput + '}';
     }
-    
 }

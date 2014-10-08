@@ -6,7 +6,7 @@ import java.util.Calendar;
 /**
  *
  * @author Krishna
- * @author Mona
+ * @author Mona.
  */
 public class Snapshot {
 

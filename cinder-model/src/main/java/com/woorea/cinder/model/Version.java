@@ -58,5 +58,4 @@ public class Version {
     public void setMedia_types(String media_types) {
         this.media_types = media_types;
     }
-    
 }

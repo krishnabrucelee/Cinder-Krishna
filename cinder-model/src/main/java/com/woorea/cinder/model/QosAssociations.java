@@ -10,6 +10,7 @@ import org.codehaus.jackson.annotate.JsonProperty;
  *
  * @author Krishna
  * @author Mona
+ 
  */
 public class QosAssociations implements Iterable<QosSpec>, Serializable{
     

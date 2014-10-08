@@ -193,8 +193,5 @@ public class Volume {
     @Override
     public String toString() {
         return "Volume{" + "id=" + id + ", name=" + name + ", links=" + links + ", status=" + status + ", attachments=" + attachments + ", bootable=" + bootable + ", created_at=" + created_at + ", metadata_id=" + metadata_id + ", description=" + description + ", availability_zone=" + availability_zone + ", source_volid=" + source_volid + ", display_description=" + display_description + ", snapshot_id=" + snapshot_id + ", size=" + size + ", display_name=" + display_name + ", imageRef=" + imageRef + ", volume_type=" + volume_type + ", metadata=" + metadata + '}';
-    }
-
-    
-
+    }   
 }

@@ -34,7 +34,4 @@ public class Backup implements Iterable<Volume>, Serializable{
 	public String toString() {
 		return "Backup [list=" + list + "]";
 	}
-
-
-    
 }
