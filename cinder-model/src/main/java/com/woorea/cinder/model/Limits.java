@@ -2,7 +2,7 @@
 package com.woorea.cinder.model;
 
 /**
- *
+ * This class
  * @author Krishna
  * @author Mona
  */
