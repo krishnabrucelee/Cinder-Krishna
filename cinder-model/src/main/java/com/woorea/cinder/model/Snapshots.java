@@ -9,7 +9,7 @@ import org.codehaus.jackson.annotate.JsonProperty;
 /**
  * This class Shows information for a specified snapshot.
  *
- * @author Krishna
+ * @author Krishna.
  * @author Mona.
  */
 public class Snapshots implements Iterable<Snapshot>, Serializable {

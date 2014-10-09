@@ -2,7 +2,7 @@ package com.woorea.cinder.model;
 
 /**
  * This class shows associated volume type.
- * @author Krishna
+ * @author Krishna.
  * @author Mona.
  */
 public class VolumeTypes {

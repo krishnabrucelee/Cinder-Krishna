@@ -8,7 +8,7 @@ import org.codehaus.jackson.annotate.JsonProperty;
 /**
  *This class get all associations for QoS specification.
  * @author Krishna
- * @author Mona
+ * @author Mona.
  */
 public class QosAssociations implements Iterable<QosSpec>, Serializable {
 

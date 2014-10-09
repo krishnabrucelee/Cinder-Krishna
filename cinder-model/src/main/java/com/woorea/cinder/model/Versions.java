@@ -8,7 +8,7 @@ import org.codehaus.jackson.annotate.JsonProperty;
 /**
  * This class extends version.
  *
- * @author Krishna
+ * @author Krishna.
  * @author Mona.
  */
 public class Versions implements Iterable<Version>, Serializable {

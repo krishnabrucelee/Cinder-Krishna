@@ -8,7 +8,7 @@ import org.codehaus.jackson.annotate.JsonProperty;
 /**
  * This gives resources for volume to create instance.
  *
- * @author Krishna
+ * @author Krishna.
  * @author Mona.
  */
 public class Volumes implements Iterable<Volume>, Serializable {
